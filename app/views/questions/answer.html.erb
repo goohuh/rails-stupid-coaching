@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="col-4 offset-4 my-5 bg-white py-4 rounded shadow">
+    <div class="row">
+      <h1 class="text-center mb-4">Stupid Coaching</h1>
+      <p class="text-center mb-4">Ask your coach anything</p>
+    </div>
+    <div class="row align-items-center p-3">
+      <h2><%= @question %></h2>
+      <p>-You</p>
+    </div>
+    <div class="row valign-items-center p-3">
+      <h2><%= @answer %></h2>
+      <p>-Your coach</p>
+    </div>
+    <div class="row align-items-center p-3">
+      <%= link_to "Ask a new question", ask_path %>
+    </div>
+  </div>
+</div>
